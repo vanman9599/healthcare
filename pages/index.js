@@ -130,8 +130,8 @@ export default function Home() {
 
         <div className='flex items-center justify-center h-96 bg-fixed bg-[url(/images/parralex.jpg)] bg-cover bg-center pt-10'>
             <div>
-                <h1 className=''>Looking for a nurse?</h1>
-                <p>Book a free consultation</p>
+                <h1 className='text-slate-100 text-5xl text-center'>Looking for a nurse?</h1>
+                <p className='text-slate-100   text-xl text-center '>Book a free consultation</p>
                 <button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-10 md:text-xl mx-10 my-10 bg-cyan-400 '>
                     <a href='https://wa.me/+2347059935180'>CALL NOW ON WHATSAPP</a></button>
             </div>
