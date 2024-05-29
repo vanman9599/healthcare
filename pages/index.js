@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { BsTelephoneForward } from "react-icons/bs";
 import { FiMapPin } from "react-icons/fi";
 import { FaRegEnvelope } from "react-icons/fa6";
+import Link from 'next/link'
 export default function Home() {
     return (<>
 
@@ -63,8 +64,8 @@ export default function Home() {
         </div>
 
         <div className='text-center  pt-10 pb-20'>
-            <h1 className='text-8xl '>Services</h1>
-            <p className='text-xl'> our goal is to free you from pain</p>
+            <h1 className=' text-5xl md:text-8xl '>Services</h1>
+            <p className='md:text-xl'> our goal is to free you from pain</p>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 px-10'>
@@ -72,35 +73,67 @@ export default function Home() {
                 <Image
                     alt="Mountains"
                     src='/images/ivdrip.jpg'
-                    width={300}
-                    height={300}
+                    width={400}
+                    height={400}
                 />
-                <h1>IV DRIP TREATMENT</h1>
-                <p className='text-prettier text-xl'>IV Drip Treatment for: Dehydration, Bali belly, Fatigue, <br />  Dengue Fever, Hangover, and Immune booste</p>
+                <div className='text-center pr-5'>
+                    <h1 className='text-2xl text-cyan-400'>IV DRIP TREATMENT</h1>
+                    <p className='text-wrap text-xl'>IV Drip Treatment for: Dehydration, Bali belly, Fatigue,   Dengue Fever, Hangover, and Immune booster</p>
+                </div>
             </div>
 
             <div>
                 <Image
                     alt="Mountains"
                     src='/images/wound.jpg'
-                    width={300}
-                    height={300}
+                    width={400}
+                    height={400}
                 />
-                <h1>WOUNDS TREATMENT</h1>
-                <p className='text-wrap text-xl'>We treat all wounds from large to small</p>
+                <div className='text-center pr-5'>
+                    <h1 className='text-2xl text-cyan-400'>WOUNDS TREATMENT</h1>
+                    <p className='text-wrap text-xl'>We treat all wounds from large to small</p>
+                </div>
             </div>
 
             <div>
                 <Image
                     alt="Mountains"
                     src='/images/postpar.jpg'
-                    width={300}
-                    height={300}
+                    width={400}
+                    height={400}
                 />
-                <div className='text-wrap'>
-                    <h1>POSTPARTUM TREATMENT</h1>
-                    <p className='text-justify text-xl'> Bathing and care of Umbilical cord,<br /> baby massage, postpartum breast care.</p>
+                <div className='text-center pr-5'>
+                    <h1 className='text-2xl text-cyan-400'>POSTPARTUM TREATMENT</h1>
+                    <p className=' text-xl'> Bathing and care of Umbilical cord,<br /> baby massage, postpartum breast care.</p>
                 </div>
+            </div>
+        </div>
+
+        <div className='text-center py-20'><button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-20 md:text-3xl bg-cyan-300'>
+            <Link href='/services'>see our full menu </Link></button>
+        </div>
+
+        <div className='flex  flex-col md:flex-row'>
+            <Image
+                alt="Mountains"
+                src='/images/homabout.jpg'
+                width={600}
+                height={600} />
+            <div className='bg-gradient-to-r from-slate-400'>
+                <h1 className='text-5xl text-center py-10'>About us</h1>
+                <p className=' text-2xl py-5 px-8'>We strive to improve your quality of life</p>
+                <p className='text-wrap text-xl  px-8'>Our staff of Licensed Professional Nurses and Midwives are waiting to serve your needs</p>
+                <button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-10 md:text-xl mx-10 my-10 bg-cyan-400 '>
+                    <Link href='/services'>see our full menu </Link></button>
+            </div>
+        </div>
+
+        <div className='flex items-center justify-center h-96 bg-fixed bg-[url(/images/parralex.jpg)] bg-cover bg-center pt-10'>
+            <div>
+                <h1 className=''>Looking for a nurse?</h1>
+                <p>Book a free consultation</p>
+                <button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-10 md:text-xl mx-10 my-10 bg-cyan-400 '>
+                    <a href='https://wa.me/+2347059935180'>CALL NOW ON WHATSAPP</a></button>
             </div>
         </div>
     </>
