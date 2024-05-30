@@ -112,7 +112,7 @@ export default function Home() {
         </div>
 
         <div className='text-center py-20'><button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-20 md:text-3xl bg-cyan-300'>
-            <Link href='/services'>see our full menu </Link></button>
+            <Link href='/services'>See our full menu </Link></button>
         </div>
 
         <div className='flex  flex-col md:flex-row'>
