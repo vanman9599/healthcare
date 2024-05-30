@@ -11,9 +11,9 @@ export default function About() {
     return (
         <>
             <div className=' bg-cyan-500 w-full h-64 '>
-
-                <h1 className=' py-24  px-5 text-5xl text-slate-100'>ABOUT</h1>
-                <hr className='w-20 h-1 my-5 bg-slate-100 outline outline-transparent' />
+           
+                <h1 className=' pt-24  px-5 text-5xl text-slate-100'>ABOUT</h1>
+                <hr className='w-20 h-1    mt-4 ml-5 bg-slate-100 outline outline-transparent' />
             </div>
             <div className='flex flex-col md:flex-row gap-10 py-20 px-10'>
                 <Image
@@ -33,7 +33,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className='bg-gradient-to-r from-slate-300  grid grid-cols-1 md:grid-cols-2 h-96 w-full'>
+            <div className='bg-gradient-to-r from-slate-300 grid grid-cols-1 md:grid-cols-2 h-full w-full mb-0 pb-10 md:mb-0'>
                 <div className='px-20 pt-10 text-wrap'>
                     <div className='bg-cyan-500 rounded-full w-10'>
                         <SlBadge className='text-4xl p-2 ' /> </div>
