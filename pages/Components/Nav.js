@@ -27,7 +27,7 @@ export default function Nav() {
                         <Link href="/about" onClick={handleLinkClick}>About</Link>
                     </li>
                     <li className="px-10 text-xl pb-3 md:pb-0 hover:text-sky-400 text-slate-100 md:p-0">
-                        <Link href="/services" onClick={handleLinkClick}>Service</Link>
+                        <Link href="/services" onClick={handleLinkClick}>Services</Link>
                     </li>
                 </ul>
             </div>
