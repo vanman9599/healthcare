@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import { BsTelephoneForward } from "react-icons/bs";
+import { BsTelephoneForward} from "react-icons/bs";
 import { FiMapPin } from "react-icons/fi";
 import { FaRegEnvelope } from "react-icons/fa6";
 import Link from 'next/link'
+import Whatsapp from './Components/Whatsapp';
 export default function Home() {
     return (<>
 
@@ -15,8 +16,9 @@ export default function Home() {
                 <p className=' text-xl md:text-3xl pb-10'> Get the care you need from a professional license nurse</p>
             </div>
             <div className=' pb-5  md:mb-0 pl-10'><button className='outline outline-2 text-slate-100 md:text-2xl p-3 md:py-7 px-10 bg-cyan-500 outline-offset-2 rounded-full outline-transparent'>
-                <a href='https://wa.me/+2347059935180'>CALL NOW ON WHATSAPP</a>
+                <a href='https://wa.me/+6281274888687'>CALL NOW ON WHATSAPP</a>
             </button></div>
+            <Whatsapp />
             <div className=' inset-0 bg-cyan-500 bg-opacity-50 z-0'>
                 <Image
 
@@ -124,7 +126,7 @@ export default function Home() {
                 <p className=' text-2xl py-5 px-8'>We strive to improve your quality of life</p>
                 <p className='text-wrap text-xl  px-8'>Our staff of Licensed Professional Nurses and Midwives are waiting to serve your needs</p>
                 <button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-10 md:text-xl mx-10 my-10 bg-cyan-400 '>
-                    <Link href='/services'>see our full menu </Link></button>
+                    <Link href='/about'>see our full menu </Link></button>
             </div>
         </div>
 
@@ -133,7 +135,7 @@ export default function Home() {
                 <h1 className='text-slate-100 text-5xl text-center'>Looking for a nurse?</h1>
                 <p className='text-slate-100   text-xl text-center '>Book a free consultation</p>
                 <button className='outline outline-2 outline-offset-2 outline-cyan-400 rounded-sm py-5 px-10 md:text-xl mx-10 my-10 bg-cyan-400 '>
-                    <a href='https://wa.me/+2347059935180'>CALL NOW ON WHATSAPP</a></button>
+                    <a href='https://wa.me/+6281274888687'>CALL NOW ON WHATSAPP</a></button>
             </div>
         </div>
     </>

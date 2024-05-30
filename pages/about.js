@@ -5,6 +5,7 @@ import { FiMapPin } from "react-icons/fi";
 import { TbTie } from "react-icons/tb";
 import { FaRegFlag } from "react-icons/fa";
 import { SlBadge } from "react-icons/sl";
+import Whatsapp from './Components/Whatsapp';
 export default function About() {
 
 
@@ -32,7 +33,7 @@ export default function About() {
                         <Link href='/services'>BE IN TOUCH </Link></button>
                 </div>
             </div>
-
+<Whatsapp />
             <div className='bg-gradient-to-r from-slate-300 grid grid-cols-1 md:grid-cols-2 h-full w-full mb-0 pb-10 md:mb-0'>
                 <div className='px-20 pt-10 text-wrap'>
                     <div className='bg-cyan-500 rounded-full w-10'>
