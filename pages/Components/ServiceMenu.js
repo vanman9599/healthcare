@@ -64,9 +64,9 @@ export default function ServiceMenu() {
                         <div className='bg-cyan-400 rounded-full w-8 py-2 pr-2 '><LuPackageOpen className='text-3xl' /></div>
                         <h1 className='text-xl'>Dengue Recovery Package</h1>
                     </div>
-                    <p className='text-3xl'>package 1</p>
+                    <p className='text-3xl'>Package 1</p>
                     <h1 className='text-3xl py-2 text-cyan-500'>IDR 1.85M</h1>
-                    <p className='text-3xl'>package 2</p>
+                    <p className='text-3xl'>Package 2</p>
                     <h1 className='text-3xl py-2 text-cyan-500'>IDR 3M</h1>
                     <hr className='w-full' />
                     <p className='text-wrap py-2'>This is comprehensive therapy for dengue fever patients
