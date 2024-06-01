@@ -23,7 +23,7 @@ export default function Home() {
                 <Image
 
                     alt="Mountains"
-                    src='/images/home-hero.jpg'
+                    src='/images/iv_drip2.jpg'
                     quality={100}
                     fill
                     sizes="100vw"
