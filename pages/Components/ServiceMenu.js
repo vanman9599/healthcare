@@ -65,9 +65,9 @@ export default function ServiceMenu() {
                         <h1 className='text-xl'>Dengue Recovery Package</h1>
                     </div>
                     <p className='text-3xl'>Package 1</p>
-                    <h1 className='text-3xl py-2 text-cyan-500'>IDR 1.85M</h1>
-                    <p className='text-3xl'>Package 2</p>
                     <h1 className='text-3xl py-2 text-cyan-500'>IDR 3M</h1>
+                    <p className='text-3xl'>Package 2</p>
+                    <h1 className='text-3xl py-2 text-cyan-500'>IDR 5M</h1>
                     <hr className='w-full' />
                     <p className='text-wrap py-2'>This is comprehensive therapy for dengue fever patients
                         We have 3 to 7 day packages. Call for options and pricing.</p>
