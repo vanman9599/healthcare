@@ -19,7 +19,7 @@ export default function About() {
             <div className='flex flex-col md:flex-row gap-10 py-20 px-10'>
                 <Image
                     alt="Mountains"
-                    src='/images/abouthero.jpg'
+                    src='/images/lady_couch_drip.jpg'
                     width={700}
                     height={800}
                 />
