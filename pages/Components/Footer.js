@@ -30,7 +30,7 @@ export default function Footer() {
       <div className='py-10 md:py-32'>
         <h1 className='text-2xl'>Contact</h1>
         <p>Whatsapp +6281274888687</p>
-        <p>care4u.indonesia@gmail.com</p>
+        <p><a href="mailto:care4u.indonesia@gmail.com">care4u.indonesia@gmail.com</a></p>
         <p>Bali, Indonesia</p>
         <div className='flex flex-row gap-3'>
           
