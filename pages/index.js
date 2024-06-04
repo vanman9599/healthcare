@@ -59,7 +59,7 @@ export default function Home() {
 
                 <div className='md:py-5 md:px-40 text-slate-700'>
                     <FaRegEnvelope className='text-3xl' />
-                    <p><a href="care4u.indonesia@gmail.com">care4u.indonesia@gmail.com</a></p>
+                    <p><a href="mailto:care4u.indonesia@gmail.com">care4u.indonesia@gmail.com</a></p>
                 </div>
 
             </div>
