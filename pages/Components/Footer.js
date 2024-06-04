@@ -33,9 +33,7 @@ export default function Footer() {
         <p>care4u.indonesia@gmail.com</p>
         <p>Bali, Indonesia</p>
         <div className='flex flex-row gap-3'>
-          <FaFacebook />
-          <RiTwitterXLine />
-          <FaInstagram />
+          
         </div>
 
       </div>
